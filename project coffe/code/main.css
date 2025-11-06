@@ -1,0 +1,392 @@
+html{
+font-size: 20px;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+body{
+    margin: 0;
+}
+*{
+    text-decoration: none;
+    color: #fff;
+}
+nav a{
+    color: #fff;
+}
+.navcentr{
+    display: flex;
+    gap: 8rem;
+}
+.navsign{
+    text-decoration: underline;
+    align-items: center;
+    gap: 2rem;
+}
+button{
+    width: 130px;
+    height: 50px;
+    background-color: #ffba53;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    font-size: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(../image/coffee_image.png);
+}
+.menu h1{
+    font-size: 230px;
+    font-family: "Clicker Script", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.menu{
+    margin: 8rem 0 0 5rem;
+}
+.count h2{
+    font-size: 55px;
+    font-family: "Playfair Display";
+    color: #603809;
+}
+.cont p{
+    color: #707070;
+    font-size: 20px;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.shou{
+    display: flex;
+    align-items: center;
+    margin-top: -220px;
+}
+.shou h1{
+    color: #603809;
+    font-family: "Playfair Display";
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 370px;
+}
+.shou p{
+    color: #707070;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-family: 400;
+}
+.clife{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.clife h1{
+    color:#603809;
+    font-size: 22px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    text-align: center;
+}
+.clife p{
+    color: #1e1e1e;
+    font-size: 17px;
+    text-align: center;
+}
+.clife h3{
+    color: #603809;
+    font-family: "Playfair Display";
+    font-family: 700;
+    text-align: center;
+}
+.clife button{
+    margin-left: 4rem
+}
+.a{
+    background-color: #dba65661;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.492);
+}
+.b{
+    background-color: #dba65661;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.492); 
+}
+.c{
+    background-color: #dba65661;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.492);
+}
+.d{
+    background-color: #dba65661;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.492);
+}
+.dre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dre h1{
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    margin-left: 200px;
+}
+.dre p{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-left: 250px;
+}
+.monza{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.monza h1{
+    color: #603809;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.monza p{
+    color: #707070;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    text-align: center;
+}
+.aa{
+    background-color: #ffeed8;
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    padding-top: 30px;
+}
+.ab{
+    background-color: #ffeed872;
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    padding-top: 30px;
+    border: solid 3px #ffeed8;
+}
+.ac{
+    background-color: #ffeed872;
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    padding-top: 30px;
+    border: solid 3px #ffeed8;
+}
+.ad{
+    background-color: #ffeed872;
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    padding-top: 30px;
+    border: solid 3px #ffeed8;
+}
+.monzatxt h1{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.monzatxt span{
+    color: #603809;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.monzatxt button{
+    margin-left: 35rem;
+}
+.bgcf{
+    background-image: url(../image/Rectangle\ 14.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 574px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.chp{
+    padding-left: 130px;
+}
+.chp h1{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.chp p{
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+}
+.on{
+    padding-right: 170px;
+    background-image: url(../image/coffee_bean.png);
+    margin-top: 80px;
+}
+.hh h1{
+    font-family: "Playfair Display";
+    font-size: 54px;
+    font-weight: 700;
+    color: #603809;
+    text-align: center;
+    margin-top: 50px;
+}
+.hh p{
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.came{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orta{
+    display: flex;
+    align-items: center;
+    background-color: #ffeed889;
+    width: 920px;
+}
+.orta h1{
+    color: #603809;
+    font-family: "Passion One";
+    font-size: 74px;
+}
+.orta p{
+    color: #707070;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    text-align: center;
+    padding-left: 2px;
+}
+.orta button{
+    width: 55px;
+    border-radius: 10px;
+}
+.orta h2{
+    font-family: "Playfair Display";
+    font-size: 32px;
+    color: #603809;
+    font-weight: 700;
+    text-align: center;
+}
+.img{
+    padding-left: 310px;
+}
+.ich{
+    padding: px;
+}
+.foo1{
+    background-image: url(../image/Group\ 46.png);
+    width: 100%;
+    height: 300px;   
+    text-align: center;
+}
+.foo1 h1{
+    font-family: "Playfair Display";
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}
+.foo1 p{
+    font-family: "Playfair Display";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+.foo1 input{
+    width: 400px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.foo1 button{
+    width: 130px;
+    height: 51px;
+    background-color: #ffba53;
+    border: none;
+    border-radius: 7px;
+    color: #000;
+    font-size: 20px;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.foo2{
+    background-image: url(../image/Group\ 61.jpg);
+    margin-top: -30px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.fontz{
+    font-family: "Clicker Script", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #fff;
+}
+.foo2 p{
+    font-family: "Playfair Display";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.foo1 h1{
+    font-family: "Playfair Display";
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+}
+.foo2 a {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    display: block;
+    margin: 20px;
+}
+.foo2 img{
+    width: 30px;
+    margin: 10px;
+}
